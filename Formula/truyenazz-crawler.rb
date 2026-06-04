@@ -1,28 +1,28 @@
 class TruyenazzCrawler < Formula
   desc "Rust crawler and EPUB builder for truyenazz.me novels"
   homepage "https://github.com/kurokeita/truyenazz-crawler"
-  version "1.0.1"
+  version "1.1.0"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_intel do
-      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.0.1/truyenazz-crawl-macos-x86_64.tar.gz"
-      sha256 "c634350bfc1c89360abd2ac210ffebea389290c26172d3d0d73577d5a29c8d96"
+      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.1.0/truyenazz-crawl-macos-x86_64.tar.gz"
+      sha256 "1ed3f488fa7590e4b4056797fca33ce000c410f048258361bb25657b8ef4dda3"
     end
     on_arm do
-      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.0.1/truyenazz-crawl-macos-aarch64.tar.gz"
-      sha256 "f656507d8b0c2aa239263fd652ef20b54f5493b782a190cbe87dea5ebaf2c0d6"
+      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.1.0/truyenazz-crawl-macos-aarch64.tar.gz"
+      sha256 "5deb7e04b46a2b1cdfda90c27a7b6c36b0373521477e257dec1dded6508ed245"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.0.1/truyenazz-crawl-linux-x86_64.tar.gz"
-      sha256 "878e9ccd8238ad2fc174156920cd5151117544227f100ead80ce3df631cdd102"
+      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.1.0/truyenazz-crawl-linux-x86_64.tar.gz"
+      sha256 "a9660e844e9d3f26bf8e35d47c175ea0e148b51b47e2d588956f6857eef64d4a"
     end
     on_arm do
-      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.0.1/truyenazz-crawl-linux-aarch64.tar.gz"
-      sha256 "2f353bc771c76f9b5afc3c5d3c405b851e512737f32d69906d99d5531d9d459a"
+      url "https://github.com/kurokeita/truyenazz-crawler/releases/download/v1.1.0/truyenazz-crawl-linux-aarch64.tar.gz"
+      sha256 "666e0a5c1205befd696d8390088db596d18e5540a4bc227857e4f4bb0b965cc3"
     end
   end
 
